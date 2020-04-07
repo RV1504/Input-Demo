@@ -1,0 +1,33 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:id="@+id/ip"
+        android:layout_width="wrap_content"
+        android:layout_height="83dp"
+        android:gravity="center_horizontal"
+        android:hint="Enter the number"
+        android:inputType="number"
+        android:textColor="#000000"
+        android:textColorHint="#ff0000"></EditText>
+
+   <Button
+       android:id="@+id/compute"
+       android:text="Evaluate the number"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"></Button>
+
+        <TextView
+            android:id="@+id/display"
+            android:textSize="45sp"
+            android:textColor="#131aaa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></TextView>
+
+
+
+</LinearLayout>
+
+
